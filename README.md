@@ -3,7 +3,7 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="Hyzer-MD" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Reza-MD" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 </p>
@@ -26,7 +26,7 @@
 > Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
 >
 > • NOTE: INI SC GAK BISA BUAT SESSION DI TERMUX YA, JADI KALIAN CARI SESSION DULU PAKAI SC LAIN 
-> • rekomendasi sc buat cari session [disini](https://github.com/ilmanhdyt/ShiraoriBOT-Md)
+> • rekomendasi sc buat cari session [disini](https://github.com/reza838/Dogebot
 >
 > • NOTE: Pastikan Jaringan kalian lancar dan device kalian bagus:v, 
 > 
@@ -126,8 +126,8 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 pkg install yarn
-git clone https://github.com/Hyzerr/Hyzer-MD-V2
-cd Hyzer-MD-V2
+git clone https://github.com/reza838/botmd
+cd botmd
 yarn
 mc
 ganti session
