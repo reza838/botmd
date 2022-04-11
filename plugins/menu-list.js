@@ -1,6 +1,6 @@
 //UNTUK PENGGUNA WHATSAPP BUSSINES
 //GUNAKAN MENU KE 2 YAH
-//CRETED BY HYZER OFFICIAL
+//CRETED BY Reza Temayang
 //JANGAN HAPUS NAMA SAYA, LU CUMA MAKE
 let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 wm = global.wm
@@ -414,8 +414,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            hydratedFooterText: wm,
            hydratedButtons: [{
             urlButton: {
-               displayText: 'MY WEBSITE',
-               url: 'https://Hyzerr.github.io/'
+               displayText: 'SOURCE CODE',
+               url: 'https://youtu.be/_HmhBUN7B-4'
              }
 
            },
