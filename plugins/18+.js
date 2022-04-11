@@ -8,7 +8,7 @@ handler.tags = ['bokep','premium']
 handler.command = /^(filebokep)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = true
+handler.premium = false
 handler.group = false
 handler.private = false
 
