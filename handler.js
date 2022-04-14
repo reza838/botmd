@@ -429,14 +429,14 @@ module.exports = {
                 } else global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: true,
-                    detect: true,
+                    detect: false,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: true,
-                    viewonce: true,
+                    antiLink: false,
+                    viewonce: false,
                     antiToxic: true,
                 }
             } catch (e) {
@@ -706,9 +706,9 @@ module.exports = {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
-                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'WELCOME DEK ').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
-                                (chat.sBye || this.bye || conn.bye || 'SAYONARA DEK'))
-                                this.sendButtonLoc(id, await(await fetch(pp)).buffer(), text, '', "Turu banj", "Yakin turu?", null)
+                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
+                                (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang 1'))
+                                this.sendButtonLoc(id, await(await fetch(pp)).buffer(), text, '', "ok", "huuu", null)
                                 }
                     }
                 }
